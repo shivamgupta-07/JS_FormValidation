@@ -1,0 +1,33 @@
+body{
+    background-color: lightskyblue;
+}
+.form-control:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+}
+.passwordBox{
+    text-align: right;
+    align-items: center;
+    margin: 5px;
+}
+/* Custom Classes */
+.is-form-valid{
+    border: solid 1px limegreen;
+    border-left: solid 15px limegreen;
+    box-shadow: 0 0 5px limegreen;
+}
+.is-form-invalid{
+    border: solid 1px red;
+    border-left: solid 15px red;
+    box-shadow: 0 0 5px red;
+    
+}
+.text-success{
+    color: limegreen !important;
+    font-size: 14px !important;
+}
+.text-fail{
+    color: red !important;
+    font-size: 14px !important;
+}
